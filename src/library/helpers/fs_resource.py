@@ -25,3 +25,4 @@ class FS_resource:
 
     def get_abs_path(self, path):
         return os.path.join(self.base_dir, path)
+        
